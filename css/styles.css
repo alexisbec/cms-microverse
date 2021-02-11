@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 5em;
+}
+
+/* -------- Nav 1 -------- */
+
+.nav_1 {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav_1 ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav_1 ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.nav_1 ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a.active1, 
+.li_1:hover {
+    background: #1b9bff;
+    transition: .5s;
+    padding: 5px 10px;
+}
+
+/* -------- Nav 2 -------- */
+
+.nav_2 {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sec_2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% 30px 5%;
+    background-color: #424242;
+}
+
+.nav_2 li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_2 li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nav_2 li a:hover {
+    color: #0088a9;
+}
+
+.cta button {
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cta button:hover {
+    background-color: rgba(27, 103, 122, 0.8);
+}
+
+/* -------- Nav 3 -------- */
+
+.sec_3 {
+    font-family: 'Poppins', sans-serif;
+    background: #2c3e50;
+}
+
+.nav_3 {
+    position: relative;
+    margin: 27px auto 0;
+    width: 590px;
+    height: 50px;
+    background: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.animation_1 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #1abc9c;
+    width: 100px;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+.li_3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+.li_3:nth-child(1) {
+    width: 100px;
+}
+
+.start-home,
+.li_3:nth-child(1):hover~.animation_1 {
+    width: 100px;
+    left: 0;
+}
+
+.li_3:nth-child(2) {
+    width: 110px;
+}
+
+.start-about,
+.li_3:nth-child(2):hover~.animation_1 {
+    width: 100px;
+    left: 100px;
+}
+
+.li_3:nth-child(3) {
+    width: 100px;
+}
+
+.start-services,
+.li_3:nth-child(3):hover~.animation_1 {
+    width: 100px;
+    left: 210px;
+}
+
+.li_3:nth-child(4) {
+    width: 160px;
+}
+
+.start-port,
+.li_3:nth-child(4):hover~.animation_1 {
+    width: 160px;
+    left: 310px;
+}
+
+.li_3:nth-child(5) {
+    width: 120px;
+}
+
+.start-contact,
+.li_3:nth-child(5):hover~.animation_1 {
+    width: 120px;
+    left: 470px;
+}
+
+/* -------- Nav 4 -------- */
+
+.sec_4 {
+    font-family: 'Poppins', sans-serif;
+    background: #2c3e50;
+}
+
+.nav_4 {
+    position: relative;
+    margin: 27px auto 0;
+    width: 590px;
+    height: 50px;
+    background: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.animation_2 {
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: #1abc9c;
+    width: 100px;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+.li_4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+.li_4:nth-child(1) {
+    width: 100px;
+}
+
+.start-home,
+.li_4:nth-child(1):hover~.animation_2 {
+    width: 100px;
+    left: 0;
+}
+
+.li_4:nth-child(2) {
+    width: 110px;
+}
+
+.start-about,
+.li_4:nth-child(2):hover~.animation_2 {
+    width: 100px;
+    left: 100px;
+}
+
+.li_4:nth-child(3) {
+    width: 100px;
+}
+
+.start-services,
+.li_4:nth-child(3):hover~.animation_2 {
+    width: 100px;
+    left: 210px;
+}
+
+.li_4:nth-child(4) {
+    width: 160px;
+}
+
+.start-port,
+.li_4:nth-child(4):hover~.animation_2 {
+    width: 160px;
+    left: 310px;
+}
+
+.li_4:nth-child(5) {
+    width: 120px;
+}
+
+.start-contact,
+.li_4:nth-child(5):hover~.animation_2 {
+    width: 120px;
+    left: 470px;
+}
