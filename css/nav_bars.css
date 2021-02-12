@@ -104,6 +104,9 @@ a.active1,
 .sec_3 {
     font-family: 'Poppins', sans-serif;
     background: #2c3e50;
+    height: 140px;
+    padding: 20px;
+    display: flex;
 }
 
 .nav_3 {
@@ -195,6 +198,9 @@ a.active1,
 .sec_4 {
     font-family: 'Poppins', sans-serif;
     background: #2c3e50;
+    height: 140px;
+    padding: 20px;
+    display: flex;
 }
 
 .nav_4 {

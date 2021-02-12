@@ -5,61 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav_Bar1</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav_bar1.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="sec_1">
-        <nav class="nav_1">
-            <label class="logo">Your Logo Here</label>
-            <ul>
-                <li><a class="active1 li_1" href="#">Home</a></li>
-                <li><a class="li_1" href="#">About</a></li>
-                <li><a class="li_1" href="#">Services</a></li>
-                <li><a class="li_1" href="#">Portfolio</a></li>
-                <li><a class="li_1" href="#">Contact</a></li>
+    <header class="header">
+        <nav class="navigation">
+            <section class="navigation_icon">
+                <span class="topbar"></span>
+                <span class="middlebar"></span>
+                <span class="bottombar"></span>
+            </section>
+    
+            <ul class="navigation_ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </section>
+    </header>
 
-    <section class="sec_2">
-        <label class="logo">Your Logo Here</label>
-        <nav class="nav_2">
-            <ul>
-                <li><a class="li_2" href="#">Home</a></li>
-                <li><a class="li_2" href="#">About</a></li>
-                <li><a class="li_2" href="#">Services</a></li>
-                <li><a class="li_2" href="#">Portfolio</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
-    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(function() {
+            $(".navigation_icon").click(function() {
+                $(".navigation").toggleClass('navigation-open');
+            });
+        });
+    </script>
 
-    <section class="sec_3">
-        <nav class="nav_3">
-            <a class="li_3" href="#">Home</a>
-            <a class="li_3" href="#">About</a>
-            <a class="li_3" href="#">Services</a>
-            <a class="li_3" href="#">Portfolio</a>
-            <a class="li_3" href="#">Contact</a>
-            <div class="animation_1 start-home"></div>
-        </nav>
-    </section>
-
-    <section class="sec_4">
-        <nav class="nav_4">
-            <a class="li_4" href="#">Home</a>
-            <a class="li_4" href="#">About</a>
-            <a class="li_4" href="#">Services</a>
-            <a class="li_4" href="#">Portfolio</a>
-            <a class="li_4" href="#">Contact</a>
-            <div class="animation_2 start-home"></div>
-        </nav>
-    </section>
 </body>
 </html>
